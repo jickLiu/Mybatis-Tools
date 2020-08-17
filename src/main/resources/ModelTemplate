@@ -1,0 +1,26 @@
+package #<modelPackage>;
+
+import java.io.Serializable;
+
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import lombok.EqualsAndHashCode;
+import lombok.ToString;
+
+
+/**
+ * #<tableComment>(#<tableName>)
+ *
+ * @author #<createUser>
+ * @since #<createTime>
+ */
+@EqualsAndHashCode
+@ToString
+@ApiModel
+public class #<modelName> implements Serializable {
+
+    private static final long serialVersionUID = #<serialVersionUID>L;
+
+#<fields>
+#<getterSetter>
+}
